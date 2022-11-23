@@ -17,7 +17,7 @@ public class StringBufferStringBuilder {
      *     1) StringBuilder has better performance than the StringBuffer, otherwise, use StringBuffer for
      *     thread operations.
      *     2) when you need a modifiable string and only one thread is accessing, you can use StringBuilder.
-     *     
+     *
      */
     public static String m1(String s1){
         s1 = s1 + "lebron";
