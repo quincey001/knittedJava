@@ -1,7 +1,7 @@
 package Array;
 
 
-public class Arrays {
+public class Array {
 
     /**
      *  Arrays are containers in java which can hold fix number of elements and those
