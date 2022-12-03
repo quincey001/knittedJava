@@ -10,13 +10,14 @@ public class StringBufferStringBuilder {
      *     so you can use StringBuffer with multiple threads without any problems.
      *     [synchronization: when something is synchronized, then multiple threads can access,
      *     and modify it without any problems or side effect]
-     *     2) StringBuffer provides thread safety but at a performance cost.
+     *     2) StringBuffer provides thread safety but at a performance cost.(thread-safe, synchronized, slower)
      *
      * 3 - In most of the scenarios, we don't use string in a multi-thread environment,
      *     so StringBuilder is introduced as similar as StringBuffer except thread safety and synchronization.
      *     1) StringBuilder has better performance than the StringBuffer, otherwise, use StringBuffer for
      *     thread operations.
      *     2) when you need a modifiable string and only one thread is accessing, you can use StringBuilder.
+     *     (not thread-safe, not synchronized, faster)
      *
      */
     public static String m1(String s1){
