@@ -9,7 +9,7 @@ public class ArrayListDemo {
         and the value of our data is changing, that scenario is not
         thread-safe, and we will get inconsistent results (not thread-safe and synchronized)
 
-        when a thread is already working on an object and preventing another thread
+        when only one thread is already working on an object and preventing another thread
         on working on the same object, this process is called thread-safety.
      */
     public static void main(String[] args){
