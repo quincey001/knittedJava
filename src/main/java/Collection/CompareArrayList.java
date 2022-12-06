@@ -23,5 +23,7 @@ public class CompareArrayList {
         // find the missing elements
         l1.removeAll(l2);
         System.out.println(l1);
+        double a = 10.0/0.0;
+        System.out.println(a);
     }
 }
