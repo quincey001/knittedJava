@@ -16,6 +16,10 @@ public class StringMethods {
         System.out.println(a1 == a2);// the a1 and a2 objects have the same address in the string constant pool
         String a3 = new String("name");
         System.out.println(a1 == a3);// false
+        /**
+         * == is used to compare the value of primitive data type, and compare the address of reference data type
+         * equals is used to compare the content of object.
+         */
 
 
         StringMethods sm = new StringMethods();
@@ -36,6 +40,18 @@ public class StringMethods {
 //        System.out.println(sizeof--);
         System.out.println(--sizeof);
 //        System.out.println(--sizeof--); error
+        /**
+         * concat method
+         */
+        String s1 = new String("Land");
+        s1.concat("mister");
+        System.out.println(s1);// Land
+        System.out.println(s1.concat("mister"));//Landmister
+
+
+        String b1 = "aaa";
+        String b2 = "bbb";
+        System.out.println(b1 = b2);
     }
 
 }

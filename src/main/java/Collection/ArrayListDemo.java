@@ -34,5 +34,15 @@ public class ArrayListDemo {
         System.out.println(numbers);//[10, 20, 30, 40, 50]
         ArrayList<String> names = new ArrayList<String>(Arrays.asList("john","bryan"));
         System.out.println(names);//[john, bryan]
+        int a = 2;
+        int b = 1;
+        switch(a++){
+            case 1:
+                System.out.println("1");
+            case 3:
+                System.out.println("3");
+            case 2:
+                System.out.println("2");
+        }
     }
 }
