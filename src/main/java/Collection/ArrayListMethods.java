@@ -52,5 +52,9 @@ public class ArrayListMethods {
         /**
          * a2.subList(1,3);
          */
+        String number = "0123456789";
+        String a = "1";
+
+        System.out.println(a.contains(number));
     }
 }
