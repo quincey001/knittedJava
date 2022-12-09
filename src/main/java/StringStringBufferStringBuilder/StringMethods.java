@@ -52,6 +52,13 @@ public class StringMethods {
         String b1 = "aaa";
         String b2 = "bbb";
         System.out.println(b1 = b2);
+
+        /**
+         * substring method
+         */
+        String sn = "ranking";
+        String sb = sn.substring(0,1);
+        System.out.println(sb);
     }
 
 }
