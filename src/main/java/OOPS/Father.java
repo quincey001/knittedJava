@@ -1,4 +1,10 @@
 package OOPS;
 
 public class Father {
+    public static void main(String[] args){
+        Car car = new Car("germany","BMW","red",4,true);
+//        car.color = "fdfd"; the private data cannot be accessed from another package.
+        car.setColor("yellow");
+        System.out.println(car.toString());
+    }
 }
