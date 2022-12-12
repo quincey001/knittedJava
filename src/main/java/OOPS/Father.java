@@ -1,5 +1,7 @@
 package OOPS;
 
+import OOPS.Car;
+
 public class Father {
     public static void main(String[] args){
         Car car = new Car("germany","BMW","red",4,true);

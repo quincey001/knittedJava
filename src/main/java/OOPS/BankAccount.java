@@ -59,4 +59,12 @@ public class BankAccount {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public BankAccount(String accountNumber, double accountBalance, String name, String email, String phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
 }
