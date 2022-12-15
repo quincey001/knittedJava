@@ -17,6 +17,8 @@ public class StringMethods {
         String a3 = new String("name");
         System.out.println(a1 == a3);// false
         /**
+         * comparison in java
+         *
          * == is used to compare the value of primitive data type, and compare the address of reference data type
          * equals is used to compare the content of object.
          */

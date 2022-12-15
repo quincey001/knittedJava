@@ -12,22 +12,23 @@ public class Collection {
      *              5- reduce operational time
      *              6- interoperability
      *
-     * List
+     *      List
      *      * 1. an order based collection
      *      * 2. index based
      *      * arraylist
-     *      * linkedlist
+     *
+     *      linkedlist
      *      * 3.Dynamic array
-     *      *
+     *
      *      * Set
      *      * cannot have duplicate elements
-     *      *
+     *
      *      * Queue
      *      * FIFO
-     *      *
+     *
      *      * Map
      *      * stores data into key and value pair format
-     *      *
+     *
      *      * Iterator
      *      * it is used to iterate the elements from a collection
      */
