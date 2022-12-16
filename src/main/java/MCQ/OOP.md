@@ -66,13 +66,13 @@ polymorphism simply means many forms, such as animal has forms of fish and dogs.
 
 
 ## what is super() and this()?
-super() is a way to call a constructor on the super class 
-directly from the sub-class's constructor.
-so super() is a lot like this()
-super() and this() can never be called from the same constructor.
+super in java is used to refer to methods, static and instance 
+variables, constructors of parent class.
+this in java is used to refer to methods, static and instance 
+variables, constructors of a current class.
 
 ## What are getters and setters? why should we use them?
-A getter is method on a class, that retrieves the value of a private 
+A getter is method on a class, that retrieves and update the value of a private 
 field, and returns it.
 A setter is a method on a class, that sets the value of a private 
 field.

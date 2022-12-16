@@ -43,5 +43,10 @@ public class Customer {
 
         Customer customer1 = new Customer();
         System.out.println(customer1.toString());//Customer{name='jackson wang', creditLimit=40.0, email='jaskcon@gmail.com'}
+
+        //public defined variables can be accessed from inside and outsides of the packages.
+        CodingExercise30 c = new CodingExercise30();
+
+        System.out.println(c.schoolName);
     }
 }
