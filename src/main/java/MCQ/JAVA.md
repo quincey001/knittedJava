@@ -1,5 +1,5 @@
 ![avatar](/Users/congqinyan/IdeaProjects/Knitted/knittedJava/src/main/resources/img/img.png)
-![img.png](img.png)
+![img.png](img/img.png)
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)

@@ -35,6 +35,15 @@ final class cannot be inherited by other classes.
 final method cannot be overridden.
 final variables cannot be modified.
 * Abstract modifier:
+Data abstraction is the process of hiding certain details and showing only 
+essential information to the user.
+Only classes and methods can be abstract
+it cannot be applied with variable, constructor, 
+block and enum.
+1. Abstract class is a restricted class that cannot be used to create objects or 
+access it. it must be inherited from another class.
+2. Abstract method can only be used in an abstract class, and it does not have a body.
+The body is provided by the inherited subclass.
 
 
 
