@@ -1,1 +1,1 @@
-![img_65.png](img_65.png)
+![img_65.png](img/img_65.png)
