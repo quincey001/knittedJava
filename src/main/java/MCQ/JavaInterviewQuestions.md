@@ -69,6 +69,7 @@ method overloading happens in the same class, it won't change the method name,
 but parameters of the method and the code block.
 
 ## 5. what is hashmap, what is the difference between map and hashmap?
+
 ## 6. what is collection?
 ## 7. why do you use linked list?
 ## 8. what is iterator?
