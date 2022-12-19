@@ -71,10 +71,43 @@ but parameters of the method and the code block.
 ## 5. what is hashmap, what is the difference between map and hashmap?
 
 ## 6. what is collection?
+
 ## 7. why do you use linked list?
+
 ## 8. what is iterator?
+Iterator interface is used to go through all the elements in the collection.
+it used the generic way to iterate all elements.
+
 ## 9. what is bad code?
+A bad code is when a programmer do program to get things done faster without thinking 
+much about future changes and ignoring the possibility of other developer touching the code.
+
 ## 10. what are differences between == and equals?
+== is used to compare the value of primitive datatype, and compare the address of the reference data type
+equals is the method to compare the content of the objects.
+
 ## 11. what are differences between String, StringBuffer, and StringBuilder?
-## 12. What is JVM?
+string is an un-changeable object in java, if you change the string object, it will create a new 
+string object.
+stringbuffer and stringbuilder are both mutable and used to change or modify string object in java.
+the differences between stringbuffer and stringbuilder are the public methods for stringbuffer are 
+synchronized, so you can use stringbuffer with multiple thread. it provides thread-safty, but 
+performance cost.
+Stringbuilder does not provide thread-safety, so the public methods are not synchronized,
+but it has better performance than stringbuffer.
+
+## 12. What is JVM, JRE, JDK?
+JVM is java virtual machine
+it loads, verifies and executes java bytecode.
+it is known as the interpreter or the core of java programming language.
+it executes java programming.
+
+JRE is java runtime environment.
+JRE is a set of software tools responsible for execution of the java program or application in 
+your system.
+JRE uses heap space for dynamic memory allocation for java objects.
+
+JDK is java development kit.
+it is the foundational component that enables java application and java applet(小程序) development.
+
 
