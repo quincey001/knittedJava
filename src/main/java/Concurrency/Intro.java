@@ -25,5 +25,8 @@ public class Intro {
      * W : Every java application runs as a single process, and each process can have multiple threads
      * Every process has a heap or memory space, and every thread has a thread stack.
      *
+     * concurrency, which refers to an application doing more than one thing at the same time.
+     * it means that progress can be made on more than one task.
+     *
      */
 }
