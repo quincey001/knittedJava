@@ -110,4 +110,16 @@ JRE uses heap space for dynamic memory allocation for java objects.
 JDK is java development kit.
 it is the foundational component that enables java application and java applet(小程序) development.
 
+## 13. why would we want to use multiple threads in our application?
+why not just stick with the main thread
+we sometimes want to perform a task that is going to take a 
+long time. For example, we might want to query a database,
+or we might want to fetch data from somewhere on the internet
+we could do this on the main thread, but the code within each 
+main thread executes in a linear fashion, the main thread 
+won't be able to do anything else while it's waiting for the data.
 
+instead of tying up the main thread, we can create another 
+thread and execute the long-running task on that thread.
+this would free up the main thread, so that it can continue 
+executing.
