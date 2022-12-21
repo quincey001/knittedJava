@@ -3,6 +3,11 @@ package Concurrency;
 import static Concurrency.ThreadColor.*;
 
 public class ConcurrencyDemo {
+    /**
+     * in java, a thread is a separate flow of execution within a process.
+     * each thread has its own stack(memory space) and operates independently of other threads.
+     *
+     */
     public static void main(String[] args){
         System.out.println(ANSI_PURPLE + "Hello from the main thread.");
         Thread anotherThread = new AnotherThread();
