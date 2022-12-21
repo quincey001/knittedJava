@@ -14,6 +14,7 @@ public class Myrunnable implements Runnable{
 
 class Main{
     public static void main(String[] args){
+        //implemented the Runnable interface and pass an instance of the class to a thread's object's constructor
         Thread myrunnaleThread1 = new Thread(new Myrunnable());
         myrunnaleThread1.start();
         /**
