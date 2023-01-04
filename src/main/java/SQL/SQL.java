@@ -27,6 +27,14 @@ public class SQL {
      *
      *  SELECT * FROM Customers ORDER BY Country;
      *
+     *  TOP-------> SELECT TOP clause is used to specify the number of records to return
+     *  SELECT TOP 4 * FROM Customers;
+     *  SELECT * FROM Customers LIMIT 3;
+     *  SELECT TOP 50 PERCENT * FROM Customers;
+     *  SELECT TOP 4 * FROM Customers WHERE Country='Germany';
+     *
+     *  
+     *
      *  ------------------ INSERT ---------------------
      *  INSERT INTO -----------> Insert the new record into the table.
      *
@@ -36,10 +44,21 @@ public class SQL {
      *  insert data only in specified columns
      *  INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stavanger', 'Norway');
      *
-     *  IS NULL / IS NOT NULL
+     *  ------------------- IS NULL / IS NOT NULL --------------
      *  it is impossible to test for null values with comparison operations such as =, <, >
      *  SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NULL
      *
-     *  
-     */
+     *  ----------------------UPDATE-------------------
+     *  the update statement is used to modify the existing records in a table.
+     *
+     *  UPDATE Customers SET ContactName='Alfred Schmidt', City='Frankfurt' WHERE CustomerID=1;
+     *
+     *  UPDATE Customers SET ContactName='jian' WHERE Country='Mexico';
+     *
+     *  ---------------------DELETE--------------------
+     *  The delete statement is used to delete existing record in a table.
+     *
+     *  DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+     *
+     *  */
 }
