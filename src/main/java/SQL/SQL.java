@@ -49,7 +49,21 @@ public class SQL {
      *  SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY, 1) IN ('a','e','i','o','u');
      *  SELECT DISTINCT CITY FROM STATION WHERE SUBSTR(CITY, 1, 1) IN ('a','e','i','o','u');
      *  SELECT DISTINCT(CITY) FROM STATION WHERE LEFT(CITY, 1) IN ('A','E','I','O','U');
-     *  
+     *  -------end with a e i o u
+     *  SELECT DISTINCT(CITY) FROM STATION WHERE RIGHT(CITY,1) IN('a','e','i','o','u');
+     *
+     *  LOWER() ---------------> LOWERCASE STRING
+     *  SELECT DISTINCT CITY FROM STATION WHERE LOWER(LEFT(CITY,1)) IN ('a','e','i','o','u')
+     *  AND LOWER(RIGHT(CITY,1)) IN ('a','e','i','o','u');
+     *  NOT IN ------------------>
+     *  SELECT DISTINCT CITY FROM STATION WHERE LOWER(LEFT(CITY,1)) NOT IN ('a','e','i','o','u');
+     *
+     *  Greater than -----------------> >
+     *  SELECT NAME FROM CITY WHERE (POPULATION>120000) AND (COUNTRYCODE='USA');
+     *
+     *  LAST THREE CHAR ----------------->
+     *  SELECT NAME FROM STUDENTS WHERE MARKS > 75 ORDER BY RIGHT(NAME,3), ID ASC;
+     *
      *  ------------------ INSERT ---------------------
      *  INSERT INTO -----------> Insert the new record into the table.
      *
