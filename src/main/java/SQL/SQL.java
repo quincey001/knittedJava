@@ -26,7 +26,7 @@ public class SQL {
      *  ORDER BY -------> It is the keyword to sort the result-set in ascending or descending order.
      *  Query the shortest city and length of city in ascending order( if there are three options, choose the top 1)
      *  SELECT CITY, LENGTH(CITY) FROM Customers GROUP BY CITY ORDER BY LENGTH(CITY) ASC, CITY LIMIT 1;
-     *  
+     *
      *  SELECT * FROM Customers ORDER BY Country;
      *
      *  TOP-------> SELECT TOP clause is used to specify the number of records to return
@@ -44,7 +44,12 @@ public class SQL {
      *  MOD(4,2)=2;-------------------> remainder
      *  SELECT DISTINCT City FROM Customers WHERE MOD(ID,2)=0;
      *
-     *
+     *  LEFT(column name, length), Substr(column name, star, length), IN --------------------------------> Operations
+     *  query the cities with first character that equals to a,e,i,o,u. The result cannot contain duplicates.
+     *  SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY, 1) IN ('a','e','i','o','u');
+     *  SELECT DISTINCT CITY FROM STATION WHERE SUBSTR(CITY, 1, 1) IN ('a','e','i','o','u');
+     *  SELECT DISTINCT(CITY) FROM STATION WHERE LEFT(CITY, 1) IN ('A','E','I','O','U');
+     *  
      *  ------------------ INSERT ---------------------
      *  INSERT INTO -----------> Insert the new record into the table.
      *
