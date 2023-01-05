@@ -24,7 +24,9 @@ public class SQL {
      *  SELECT * FROM Customers WHERE NOT Country='German';
      *
      *  ORDER BY -------> It is the keyword to sort the result-set in ascending or descending order.
-     *
+     *  Query the shortest city and length of city in ascending order( if there are three options, choose the top 1)
+     *  SELECT CITY, LENGTH(CITY) FROM Customers GROUP BY CITY ORDER BY LENGTH(CITY) ASC, CITY LIMIT 1;
+     *  
      *  SELECT * FROM Customers ORDER BY Country;
      *
      *  TOP-------> SELECT TOP clause is used to specify the number of records to return
@@ -33,7 +35,15 @@ public class SQL {
      *  SELECT TOP 50 PERCENT * FROM Customers;
      *  SELECT TOP 4 * FROM Customers WHERE Country='Germany';
      *
-     *  
+     *  MAX & MIN-----------------> MAX return the biggest value of the selected column,
+     *  SELECT MIN(Price) AS SmallestPrice FROM Products;
+     *
+     *  DIFFERENCE------------------> 2-1
+     *  SELECT COUNT(City)-COUNT(DISTINCT City) FROM STATION;
+     *
+     *  MOD(4,2)=2;-------------------> remainder
+     *  SELECT DISTINCT City FROM Customers WHERE MOD(ID,2)=0;
+     *
      *
      *  ------------------ INSERT ---------------------
      *  INSERT INTO -----------> Insert the new record into the table.
