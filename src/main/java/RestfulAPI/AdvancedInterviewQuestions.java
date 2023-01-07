@@ -51,5 +51,9 @@ public class AdvancedInterviewQuestions {
      * be cached by who and for how long
      *
      *
+     * 9-------------------what is json?(javasript object notation)
+     * JSON is a syntax for storing and exchanging data
+     *
+     *
      */
 }
