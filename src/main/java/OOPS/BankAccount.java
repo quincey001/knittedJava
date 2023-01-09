@@ -6,6 +6,7 @@ public class BankAccount {
     private String name;
     private String email;
     private String phoneNumber;
+
     public void depositFound(double found){
         accountBalance = accountBalance + found;
         System.out.println("Your current balance is $" + accountBalance);

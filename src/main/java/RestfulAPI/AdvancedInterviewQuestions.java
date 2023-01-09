@@ -54,6 +54,19 @@ public class AdvancedInterviewQuestions {
      * 9-------------------what is json?(javasript object notation)
      * JSON is a syntax for storing and exchanging data
      *
+     * 10------------------ what does transaction mean in rest api?
+     * a transaction refers to a group of operations that either all complete or all do not complete
+     * such a group of operation is called an atomic operation.
+     *
+     * for example, consider an API that updates two tables in a database simultaneously,
+     * a user table and a product table,
+     * without transaction, if the update to the user table succeeds but the update to the product table
+     * fails, the database could be left in an inconsistent state.
+     *
+     * using a transaction can solve this problem, if you use a transaction in the API, the updates to the
+     * tables will be treated as a single unit, either both updates will complete or not complete,
+     * this ensures the consistency of the data.
+     * 
      *
      */
 }
