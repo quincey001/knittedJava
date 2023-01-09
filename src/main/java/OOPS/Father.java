@@ -8,5 +8,9 @@ public class Father {
 //        car.color = "fdfd"; the private data cannot be accessed from another package.
         car.setColor("yellow");
         System.out.println(car.toString());
+
+        DefaultConstructor df = new DefaultConstructor();
+        float num = df.getAmount();
+        System.out.println(num);
     }
 }

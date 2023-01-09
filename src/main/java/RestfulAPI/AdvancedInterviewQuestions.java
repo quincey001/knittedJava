@@ -66,7 +66,7 @@ public class AdvancedInterviewQuestions {
      * using a transaction can solve this problem, if you use a transaction in the API, the updates to the
      * tables will be treated as a single unit, either both updates will complete or not complete,
      * this ensures the consistency of the data.
-     * 
+     *
      *
      */
 }
