@@ -148,5 +148,13 @@ public class SQL {
      *   PRIMARY KEY (OrderId),
      *   FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
      * );
+     *
+     * ---------------CHECK CONSTRIANT
+     * CREATE TABLE Persons (
+     *     ID int NOT NULL,
+     *     LastName varchar(255) NOT NULL,
+     *     FirstName varchar(255),
+     *     Age int CHECK (Age>=18)
+     * );
      *  */
 }
