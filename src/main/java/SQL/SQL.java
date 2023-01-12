@@ -89,5 +89,64 @@ public class SQL {
      *
      *  DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
      *
+     *
+     *
+     *  --------------------Create----------------------
+     *  --------------Create a database
+     *  CREATE DATABASE testDB;
+     *  DROP DATABASE testDB; drop an exist database
+     *  BACKUP DATABASE testDB TO DISK='filepath';
+     *
+     *  ---------------create table
+     *  CREATE TABLE Persons(
+     *      Id int,
+     *      LastName varchar(255),
+     *      FirstName varchar(255),
+     *      Address varchar(255),
+     *      City varchar(255)
+     *  );
+     *
+     *  ----------------Alter table
+     *  ALTER TABLE Customers
+     *  ADD Email varchar(255);
+     *
+     *  ----------------NOT NULL constraint
+     *  CREATE TABLE persons(
+     *      Id int NOT NULL,
+     *      LastName varchar(255) NOT NULL,
+     *      FirstName varchar(255) NOT NULL
+     *  );
+     *
+     *  ALTER TABLE persons ALTER COLUMN Age int NOT NULL;
+     *
+     *  --------------UNIQUE CONSTRAINT
+     *  CREATE TABLE Persons(
+     *      ID int NOT NULL UNIQUE,
+     *      LastName varchar(255) NOT NULL,
+     *      FirstName varchar(255),
+     *      Age int
+     *  );
+     *
+     *  ---------------PRIMARY KEY
+     *  CREATE TABLE Persons(
+     *      Id int NOT NULL,
+     *      LastName varchar(255) NOT NULL,
+     *      FirstName varchar(255),
+     *      PRIMARY KEY(Id)
+     *  );
+     *
+     * ALTER TABLE Persons
+     * ADD PRIMARY KEY (ID);
+     *
+     * ---------------FOREIGN KEY CONSTRAINT
+     * The foreign key constraint is used to prevent actions that would destroy links between tables.
+     *
+     * CREATE TABLE Orders(
+     *   OrderId int NOT NULL,
+     *   OrderNumber int NOT NULL,
+     *   PersonID int,
+     *   PRIMARY KEY (OrderId),
+     *   FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+     * );
      *  */
 }
