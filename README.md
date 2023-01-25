@@ -31,14 +31,15 @@ Struts
 ### (1). Java Application Server
 Tomcat server (optional)
 
----install tomcat web server 
+#### install tomcat web server 
 www.tomcat.apache.org
+
 bin/startup.sh is the file that used to start the tomcat server.
 
----start the tomcat service 
+#### start the tomcat service 
 brew services start tomcat
 
----verify the tomcat server
+#### verify the tomcat server
 localhost:8080
 
 ### (2). Java Integrated Development Environment(IDE)
