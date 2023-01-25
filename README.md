@@ -18,3 +18,7 @@ Servlets are java classes that run on the server side and can handle client requ
 
 ![image](https://user-images.githubusercontent.com/37968494/214590254-ea93abd2-e3c4-4d1c-b37a-513fc8cec34e.png)
 
+# Popular MVC Frameworks that are built on top of JSP and servlet.
+Spring 
+JSF
+Struts 
