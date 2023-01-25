@@ -22,3 +22,25 @@ Servlets are java classes that run on the server side and can handle client requ
 Spring 
 JSF
 Struts 
+
+
+# Steps for setup Java Development Environment
+## 1. install the Java Development Kit(JDK).
+
+## 2. Required Software
+### (1). Java Application Server
+Tomcat server (optional)
+
+---install tomcat web server 
+www.tomcat.apache.org
+bin/startup.sh is the file that used to start the tomcat server.
+
+---start the tomcat service 
+brew services start tomcat
+
+---verify the tomcat server
+localhost:8080
+
+### (2). Java Integrated Development Environment(IDE)
+Eclips IDE (optional)
+
