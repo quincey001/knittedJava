@@ -9,3 +9,9 @@ It is a subset of JSE, which includes JVM, and Java Library. It is typically use
 It is an open source web server and servlet container developed by the Apache Software Fundation.
 It is used to deploy and run java servlets and javaServer Pages(JSPs) on a web server.
 
+# JSP(Java Server Pages)
+It is technology that allows developers to create dynamic web pages using conbination of HTML,CSS, and java code.
+JSP are compiled into java servlets, which are then executed by the web server.
+
+# Servlets
+Servlets are java classes that run on the server side and can handle client requests and generate dynamic content.
