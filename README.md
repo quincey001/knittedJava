@@ -15,3 +15,6 @@ JSP are compiled into java servlets, which are then executed by the web server.
 
 # Servlets
 Servlets are java classes that run on the server side and can handle client requests and generate dynamic content.
+
+![image](https://user-images.githubusercontent.com/37968494/214590254-ea93abd2-e3c4-4d1c-b37a-513fc8cec34e.png)
+
