@@ -49,7 +49,7 @@ Eclips IDE (optional)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 1. Compare the Student Object by name and age using Comparable and Comparator interface & Collections.sort()
 ### Colletions.sort() is the method that usually used to sort array and list in the java programming.
-compareTo method in the Collections is defined the way how to compare the objects in a natural oder.
+compareTo method in the Collections is defined the way how to compare the objects in a natural order.
 By implementing compareTo or compare method in the Student class, you are telling Collections to sort the objects in 
 multiple times, the algorithm method will use the results of compare method to determine the final order of the object
 in the list.
