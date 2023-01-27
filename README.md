@@ -1,4 +1,5 @@
 # knittedJava
+This is a project for learning the basic javaprogramming knowledge 
 # Java SE (Java Standard Edition)
 It is a platform for developing and deploying java applications on desktops and servers. It includes the Java Virtual Machine, Java Library(java API), and other tools for developing, debugging and monitoring java applications.
 
