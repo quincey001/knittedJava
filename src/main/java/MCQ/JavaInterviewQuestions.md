@@ -1,6 +1,6 @@
 ## 1. What is access modifier?
 access modifiers are keywords that can be used to control the visibility of 
-fields, methods,  and constructors in a class.
+fields, methods, and constructors in a class.
 
 There are four access modifiers in java: public, default, protected 
 and private.
@@ -62,6 +62,7 @@ outer class name.
 class. 
 
 ## 3. what is an abstract variable and why do you use it?
+
 ## 4. what is overriding when compare to overloading?
 method overriding happens in inherited subclass, it won't change the 
 method name and parameters of the method, but the code block.
