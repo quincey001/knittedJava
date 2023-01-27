@@ -1,5 +1,6 @@
 # knittedJava
-This is a project for learning the basic javaprogramming knowledge 
+----------------------------------------------This is a project for learning the basic javaprogramming knowledge -----------------------------------------
+
 # Java SE (Java Standard Edition)
 It is a platform for developing and deploying java applications on desktops and servers. It includes the Java Virtual Machine, Java Library(java API), and other tools for developing, debugging and monitoring java applications.
 
@@ -46,9 +47,9 @@ localhost:8080
 ### (2). Java Integrated Development Environment(IDE)
 Eclips IDE (optional)
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 1. Compare the Student Object by name and age using Comparable and Comparator interface & Collections.sort()
-###Colletions.sort() is the method that usually used to sort array and list in the java programming.
+### Colletions.sort() is the method that usually used to sort array and list in the java programming.
 compareTo method in the Collections is defined the way how to compare the objects in a natural oder.
 By implementing compareTo or compare method in the Student class, you are telling Collections to sort the objects in 
 multiple times, the algorithm method will use the results of compare method to determine the final order of the object
