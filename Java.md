@@ -8,6 +8,6 @@ they define the access level of these objects.
 
 ``Default: A class, method, or variable that does not using any keywords will be defined as default object, they can be accessed within this package.``
 
-``Protect: A class, method, or variable that is declared as protect can be access by other class in this package and subclass outside this package.``
+``Protected: A class, method, or variable that is declared as protected can be access by other class in this package and subclass outside this package.``
 
 ``Private: A class, method, or variable that is defined as private can only be access within the same declared class.``
