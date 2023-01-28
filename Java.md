@@ -48,4 +48,5 @@ Class Counter{
  When an object is serialized, all of its fields are written to the stream of bytes, unless the field is marked as transient. If a field is marked as transient, its value will not be included in the stream of bytes, and it will not be restored when the object is deserialized.``
 
 **volatile** : it only guarantees the visibility of variables among different threads, not the consistency of the data.
+a variable's value may be modified by multiple threads.
 
