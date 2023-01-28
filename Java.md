@@ -50,3 +50,12 @@ Class Counter{
 **volatile** : it only guarantees the visibility of variables among different threads, not the consistency of the data.
 a variable's value may be modified by multiple threads.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# 3.  what is overriding when compare to overloading?
+**overriding**: 
+## it happens in subclass override the methods in the superclass, The overriding method must have the same name, return type, and parameters as the overridden method.
+
+**overloading**:
+## it hapends in the same class, the overloading method has the same name, return type but different parameters with the overloaded method.
+
+ 
