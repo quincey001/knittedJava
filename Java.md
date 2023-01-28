@@ -56,9 +56,9 @@ Class Counter{
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 3.  what is overriding when compare to overloading?
 ### overriding: 
-## it happens in subclass override the methods in the superclass, The overriding method must have the same name, return type, and parameters as the overridden method.
+## it happends in subclass override the methods in the superclass, The overriding method must have the same name, return type, and parameters as the overridden method.
 
 ### overloading:
-## it hapends in the same class, the overloading method has the same name, return type but different parameters with the overloaded method.
+## it happends in the same class, the overloading method has the same name, return type but different parameters with the overloaded method.
 
  
