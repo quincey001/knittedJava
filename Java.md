@@ -14,23 +14,23 @@ they define the access level of these objects.
 
 ## 2. what are non-access modifiers?
 
-**non-access modifiers** are some keywords that can be used to modify the behaviour of a class, method and variable.
-**Final**: ``final class cannot be inherited by other classes``<br>
+**non-access modifiers** are some keywords that can be used to modify the behaviour of a class, method and variable.<br>
+**Final**: final class cannot be inherited by other classes <br>
        ``final methods cannot be overriden``<br>
        ``final variables cannot be modified``<br>
        
-**static**: ``using static modifier is to save the memory, you donnot need to create an instance to access static method or variables.``<br>
+**static**: using static modifier is to save the memory, you donnot need to create an instance to access static method or variables.<br>
        ``inner static class can be used by just referencing outer class name``<br>
        ``inner static method can access only static data in the outer class``<br>
        ``static method can acess only static data by just referencing their names``<br>
        ``static blocks are executed in order and once, when the class is loaded.``<br>
        ``static variables are global variables in the class level.``<br>
        
-**abstract**: ``data abstraction is the process of hiding certain details and show only essential info``<br>
+**abstract**: data abstraction is the process of hiding certain details and show only essential info <br>
        `` abstract class is a restricted class, it must be implemented/inherited by subclass. it cannot be used or access by creating an instance``<br>
        `` abstract method can only be used by abstract class, and it does not have body code, the body is written in method of subclass.``<br>
        
-**Synchronized**: ``it is the keyword that can used to method and blocks of code. it used to control the access and to share the source in multiple threads,and ensure there is only one thread access at a time.``<br>
+**Synchronized**: it is the keyword that can used to method and blocks of code. it used to control the access and to share the source in multiple threads,and ensure there is only one thread access at a time.``<br>
 If two threads try to call the increment() method at the same time, one thread will acquire the lock on the Counter object, and the other thread will be blocked until the first thread releases the lock.
 ```java
 Class Counter{
@@ -44,6 +44,6 @@ Class Counter{
 }
 ```
 
-**transient**: ``it is the keyword that used on a field in a class to indicate that this transient field will not be serialized in the class object. ``<br>
+**transient**: it is the keyword that used on a field in a class to indicate that this transient field will not be serialized in the class object. ``<br>
  When an object is serialized, all of its fields are written to the stream of bytes, unless the field is marked as transient. If a field is marked as transient, its value will not be included in the stream of bytes, and it will not be restored when the object is deserialized.
        
