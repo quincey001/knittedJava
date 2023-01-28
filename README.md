@@ -109,3 +109,6 @@ for (Student student : students) {
 }
 
 ```
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# 2. Java Interview questions.
+### [Link to the directory](https://github.com/quincey001/knittedJava/blob/main/Java.md)
