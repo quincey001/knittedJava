@@ -62,3 +62,67 @@ Class Counter{
 ### it happends in the same class, the overloading method has the same name, return type but different parameters with the overloaded method.
 
  
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# 4. Compare the Student Object by name and age using Comparable and Comparator interface & Collections.sort()
+### Colletions.sort() is the method that usually used to sort array and list in the java programming.
+compareTo method in the Collections is defined the way how to compare the objects in a natural order.
+By implementing compareTo or compare method in the Student class, you are telling Collections to sort the objects in 
+multiple times, the algorithm method will use the results of compare method to determine the final order of the object
+in the list.
+
+```java 
+class Student implements Comparable<Student> {
+    private String name;
+    private int age;
+
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public int compareTo(Student other) {
+        return this.name.compareTo(other.getName());
+    }
+}
+
+List<Student> students = new ArrayList<>();
+students.add(new Student("John", 25));
+students.add(new Student("Mary", 22));
+students.add(new Student("Bob", 28));
+
+Collections.sort(students);
+
+for (Student student : students) {
+    System.out.println(student.getName() + " " + student.getAge());
+}
+```
+```java 
+class StudentAgeComparator implements Comparator<Student> {
+    @Override
+    public int compare(Student s1, Student s2) {
+        return s1.getAge() - s2.getAge();
+    }
+}
+
+List<Student> students = new ArrayList<>();
+students.add(new Student("John", 25));
+students.add(new Student("Mary", 22));
+students.add(new Student("Bob", 28));
+
+Collections.sort(students, new StudentAgeComparator());
+
+for (Student student : students) {
+    System.out.println(student.getName() + " " + student.getAge());
+}
+
+```
