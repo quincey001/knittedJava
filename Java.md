@@ -32,7 +32,7 @@
        
 ### abstract: data abstraction is the process of hiding certain details and show only essential info <br>
        `` abstract class is a restricted class, it must be implemented/inherited by subclass. it cannot be used or access by creating an instance``<br>
-       `` abstract method can only be used by abstract class, and it does not have body code, the body is written in method of subclass.``<br>
+       `` abstract method is left to be implemented by subclasses. and it does not have body code, the body is written in method of subclass.``<br>
        
 ### Synchronized: it is the keyword that can used to method and blocks of code. it used to control the access and to share the source in multiple threads,and ensure there is only one thread access at a time.``<br>
 If two threads try to call the increment() method at the same time, one thread will acquire the lock on the Counter object, and the other thread will be blocked until the first thread releases the lock.
