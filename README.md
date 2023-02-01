@@ -3,13 +3,13 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 1. Basic Java knowledege.
-| Column 1 | Column 2 | Column 3 |
+| # | Title | Link |
 | --- | --- | --- |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| 1 | Java SE, JRE, Apache Tomcat, JSP, Servlets | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
+| 2 | Java Access Modifiers, Java Non-Access Modifiers | [Java](https://github.com/quincey001/knittedJava/blob/main/Java.md) |
+| 3 | Overriding vs Overloading | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
+| 4 | Compare class objects | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 
-### [Java SE, JRE, Apache Tomcat, JSP, Servlets](https://github.com/quincey001/knittedJava/blob/main/JavaA.md)
-### [Java Access Modifiers, Java Non-Access Modifiers, Overriding vs Overloading, Compare class objects](https://github.com/quincey001/knittedJava/blob/main/Java.md)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 2. RESTful API Interview questions.
 ### [REST](https://github.com/quincey001/knittedJava/blob/main/Restful.md)
