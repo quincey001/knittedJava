@@ -10,6 +10,7 @@
 | 3 | Overriding vs Overloading | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 4 | Compare class objects | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
+| 6 | Collections | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 2. RESTful API Interview questions.
