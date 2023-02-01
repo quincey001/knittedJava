@@ -9,7 +9,7 @@
 | 2 | Java Access Modifiers, Java Non-Access Modifiers | [Java](https://github.com/quincey001/knittedJava/blob/main/Java.md) |
 | 3 | Overriding vs Overloading | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 4 | Compare class objects | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
-| 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaB.md) |
+| 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 2. RESTful API Interview questions.
