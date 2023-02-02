@@ -1,9 +1,8 @@
-# 1. why do we want to use Static in java?
-### Static is a keyword that used to define class, method, constructor and variables, the reason that using the static keyword is it does not need to create an instance to access static objects, so it saves lot of memory.Static inner class can be accessed by referencing the outer class's name, static method can only accessed by only static variables. static constructors will be excuted by order and only once. static variables are global variables.
-
+# 1. Why do we want to use static in Java??
+### Static is a keyword that is used to define classes, methods, constructors, and variables. The reason for using the static keyword is that it does not need to create an instance to access static objects, so it saves a lot of memory. Static inner classes can be accessed by referencing the outer class's name; the static method can only be accessed by static variables. Static constructors will be executed by order and only once. Static variables are global variables.
 # 2. what is an abstract variables and why we use it?
-### Abstract is keyword that used on class and method, an abstract method must be overridden by subclass, the body code needs to provide by the overrided method in the subclass, an abstract class must be inheritated/implemented by subclass.
-### The reason we using abstract in java is, if there are some common behavours in different related classes, such as shape class has a area method that was used to calculate the square of the area of this shape.
+### Abstract is a keyword that is used on class and method names; an abstract method must be overridden by the subclass, the body code needs to be provided by the overridden method in the subclass, and an abstract class must be inherited or implemented by the subclass.
+### The reason we use abstract in Java is if there are some common behaviors in different related classes, such as a shape class that has an area method that is used to calculate the square of the area of this shape.
 ### Circle and ractangle also have the method area that can be used to get the area of these shapes.
 ### So the abstract provides a way to enforce consistency and encourage modularity in the code.
 ```java
