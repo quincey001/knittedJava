@@ -6,3 +6,36 @@
 ### The reason we using abstract in java is, if there are some common behavours in different related classes, such as shape class has a area method that was used to calculate the square of the area of this shape.
 ### Circle and ractangle also have the method area that can be used to get the area of these shapes.
 ### So the abstract provides a way to enforce consistency and encourage modularity in the code.
+```java
+abstract class Shape {
+  abstract double area();
+}
+
+class Rectangle extends Shape {
+  double length;
+  double width;
+  
+  Rectangle(double length, double width) {
+    this.length = length;
+    this.width = width;
+  }
+  
+  @Override
+  double area() {
+    return length * width;
+  }
+}
+
+class Circle extends Shape {
+  double radius;
+  
+  Circle(double radius) {
+    this.radius = radius;
+  }
+  
+  @Override
+  double area() {
+    return Math.PI * radius * radius;
+  }
+}
+```
