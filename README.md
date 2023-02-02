@@ -11,6 +11,13 @@
 | 4 | Compare class objects | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
 | 6 | Collections | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
+| 7 | OOP | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 8 | String, StringBuffer, StringBuilder | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 9 | Exception Handling | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 10 | Multithreading | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 11 | I/O | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 12 | Networking | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 13 | Reflection | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Interview questions
 
