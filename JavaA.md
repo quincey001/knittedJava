@@ -2,6 +2,9 @@
 # Java SE (Java Standard Edition)
 It is a platform for developing and deploying java applications on desktops and servers. It includes the Java Virtual Machine, Java Library(java API), and other tools for developing, debugging and monitoring java applications.
 
+# Java Virtual Machine
+It is a virtual machine to run the java code in the computer system. The Java code is compiled by JVM to be a Bytecode which allows machine/computers to understand.
+
 # JRE (Java Runtime Environment)
 It is a subset of JSE, which includes JVM, and Java Library. It is typically used to run java application on a user's computer
 
