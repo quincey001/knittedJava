@@ -12,8 +12,10 @@
 | 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
 | 6 | Collections | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-##Interview questions
+Interview questions
+
 | # | Questions | Link |
+| --- | --- | --- |
 | 1 | why do we need to use static? | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaC.md) |
 | 2 | what is an abstract variable and why do you use it? | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaC.md) |
 | 3 |  | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
