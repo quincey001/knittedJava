@@ -15,3 +15,17 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 2. RESTful API Interview questions.
 ### [REST](https://github.com/quincey001/knittedJava/blob/main/Restful.md)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# 3. XML 
+XML (eXtensible Markup Language) is a markup language that is used to store and transport data. Besides being used to define the layout of a user interface as in the case of a fragment layout in Android, XML can be used for various other purposes including:
+
+Data storage and exchange: XML is widely used to store and exchange data between different applications and systems.
+
+Configuration files: XML can be used to define the configuration of applications and systems.
+
+Document format: XML can be used to define the structure and format of documents such as Office documents or e-books.
+
+Web services: XML is used as a data format in many web services such as SOAP and REST.
+
+Data validation: XML can be used to validate the structure and content of data to ensure its validity.
