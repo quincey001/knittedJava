@@ -10,8 +10,8 @@
 | 3 | Overriding vs Overloading | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 4 | Compare class objects | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
 | 5 | == & equals() | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
-| 6 | Collections | [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
-| 7 | OOP | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 6 | Collections(List, Set, Map, Stack, Queue)| [Java](https://github.com/quincey001/knittedJava/blob/main/javaB.md) |
+| 7 | OOP(Object, Class, Encapsulation, Abstraction, Inheritance, Polymorphysm) | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 | 8 | String, StringBuffer, StringBuilder | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 | 9 | Exception Handling | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 | 10 | Multithreading | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
