@@ -17,7 +17,7 @@
 | 10 | Multithreading | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 | 11 | I/O | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
 | 12 | Networking | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
-| 13 | Reflection | [Java](https://github.com/quincey001/knittedJava/blob/main/javaD.md) |
+| 13 | Reflection | [Java](https://github.com/quincey001/knittedJava/blob/main/Reflection.md) |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Interview questions
 
