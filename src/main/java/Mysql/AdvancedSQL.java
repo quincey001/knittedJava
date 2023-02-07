@@ -1,4 +1,4 @@
-package SQL;
+package Mysql;
 
 public class AdvancedSQL {
     /**
