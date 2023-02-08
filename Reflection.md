@@ -4,3 +4,4 @@ When a java class is loaded into JVM, the JVM creates a Class object for the cla
 This information is stored in a Class object and is used by the JVM to enforce access restrictions and perform othe operations, such as method invocations and field access.
 With reflection, a program can use the Class object to access and manipuldate the structure of a class using java.lang.reflect package.
 
+[Code Example](https://github.com/quincey001/knittedJava/blob/main/src/main/java/Reflection/Reflections.java)
