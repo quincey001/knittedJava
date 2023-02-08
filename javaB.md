@@ -14,3 +14,10 @@ it implemented some structure such as list, set, map, stack, queue.
 #### (5)Deque: A deque(Double Ended Queue) is a collection that can be added or removed from both ends. Implementations include LinkedList and ArrayDeque.
 #### (6)Stack: A stack is a collection that follows Last-In-First-Out order. example of stack implementations include ArrayDeque and LinkedList.
 
+# Why do we need to use LinkedList?
+
+LinkedList has a dynamic size, and allows you to insert or delete elements at any position in constant time.
+It does not require extra ememory to store the size information.
+
+Disadvantages: slower access time for elements not at the head of the list.require additional memory for the links between nodes.
+
