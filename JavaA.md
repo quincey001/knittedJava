@@ -3,8 +3,9 @@
 
 Java EE (Java Enterprise Edition) is a collection of Java APIs and technologies for building enterprise-level applications. </br>
 It is a platform-independent, Java-based framework for building, deploying, and managing large-scale, multi-tiered, scalable, reliable, and secure network applications. </br>
+
 Java EE includes a variety of APIs for different tasks, </br>
-such as <font color="red">servlets</font> for building web applications, </br>
+such as <font color="#0000FF">servlets</font> for building web applications, </br>
 <font color="red">JavaServer Pages (JSPs)</font> for generating dynamic web content, </br>
 <font color="red">Java Persistence API (JPA)</font> for persisting data in databases, </br>
 and <font color="red">Java Message Service (JMS)</font> for sending messages between components.</br>
