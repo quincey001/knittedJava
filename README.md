@@ -47,7 +47,7 @@ Interview questions
 | # | Title | Link |
 | --- | --- | --- |
 | 1 | Java SE, JVM, JRE, Apache Tomcat, JSP, Servlets | [Java](https://github.com/quincey001/knittedJava/blob/main/JavaA.md) |
-| 2 | Java EE | [Java](https://github.com/quincey001/knittedJava/blob/main/Java.md) | 
+| 2 | Java EE | [Java](https://github.com/quincey001/knittedJava/blob/main/javaEE.md) | 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # 3. XML 
