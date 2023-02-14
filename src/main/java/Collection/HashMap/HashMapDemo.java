@@ -22,5 +22,12 @@ public class HashMapDemo {
             }
         }
         System.out.println(map.get(maxKey));
+
+        HashMap<String, String> stringHashMap = new HashMap<>();
+        stringHashMap.put("a","back");
+        stringHashMap.put("b","age");
+        for(Map.Entry m : stringHashMap.entrySet()){
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
     }
 }

@@ -157,4 +157,14 @@ public class SQL {
      *     Age int CHECK (Age>=18)
      * );
      *  */
+    public static int feb(int n){
+        if(n == 1){
+            return 1;
+        }
+        return n + feb(n - 1);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(feb(5));
+    }
 }
