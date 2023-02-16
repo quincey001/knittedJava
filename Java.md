@@ -21,7 +21,7 @@
 
 ### Final: final class cannot be inherited by other classes <br>
        ``final methods cannot be overriden``<br>
-       ``final variables cannot be modified``<br>
+       ``the value of the final variables cannot be changed once it is initialized.``<br>
        
 ### static: using static modifier is to save the memory, you donnot need to create an instance to access static method or variables.<br>
        ``inner static class can be used by just referencing outer class name``<br>
