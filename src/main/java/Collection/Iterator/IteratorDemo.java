@@ -1,8 +1,6 @@
 package Collection.Iterator;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class IteratorDemo {
     /**
@@ -23,6 +21,14 @@ public class IteratorDemo {
             System.out.println(iterator.next());
         }
 
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
+        set.add(3);
+        Iterator iterator1 = set.iterator();
+        while (iterator1.hasNext()){
+            System.out.println(iterator1.next());
+        }
 
     }
 }

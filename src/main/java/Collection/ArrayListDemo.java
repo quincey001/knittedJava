@@ -2,6 +2,7 @@ package Collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayListDemo {
     /**
@@ -31,6 +32,8 @@ public class ArrayListDemo {
 
         //list with other collection
         ArrayList<Integer> numbers = new ArrayList<Integer>(Arrays.asList(10,20,30,40,50));
+        List<Integer> num = Arrays.asList(10,20,30,39);
+        List<Integer> nums = List.of(10,20,30,39);
         System.out.println(numbers);//[10, 20, 30, 40, 50]
         ArrayList<String> names = new ArrayList<String>(Arrays.asList("john","bryan"));
         System.out.println(names);//[john, bryan]
